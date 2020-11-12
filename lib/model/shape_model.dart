@@ -9,7 +9,7 @@ class Shape{
 
   factory Shape.fromJson(Map<String, dynamic> parsedJson){
     return Shape(
-      shapeName: parsedJson['shape_name'],
+      shapeName: parsedJson['shapeName'],
       property: Property.fromJson(parsedJson['property'])
     );
   }
